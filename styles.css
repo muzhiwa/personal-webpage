@@ -90,7 +90,7 @@ input, textarea {
   border: 1px solid black;
 }
 
-input[type="ratio"] {
+input[type="radio"] {
   width: auto;
   margin-right: 5px;
 }
