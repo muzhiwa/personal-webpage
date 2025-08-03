@@ -2,7 +2,7 @@ body {
 background-color: #ffffff;
 background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
 background-size: 10px 10px;
-
+font-family: "Playfair Display", serif ;
 }
 
 .nav {
@@ -77,6 +77,10 @@ background-size: 10px 10px;
   background-color: #ffffff;
 }
 
+.additional-info {
+  padding: 30px;
+}
+
 #contact {
   width: 300px;
   margin: 30px auto;
@@ -126,4 +130,28 @@ thead {
 tfoot {
   background-color: #e0e0e0;
   font-style: italic;
+}
+
+footer {
+  background-color: white;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: black;
+  background-color: white;
+}
+
+footer p {
+  color: black;
 }
